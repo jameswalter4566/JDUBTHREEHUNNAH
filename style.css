@@ -307,6 +307,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-muted);
 }
 
+.about-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+}
+
 .about-text p {
     margin-bottom: 1.5rem;
     color: var(--text-secondary);
